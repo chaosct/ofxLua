@@ -62,65 +62,65 @@ common:
 	
 	# when parsing the file system looking for sources exclude this for all or
 	# a specific platform
-	# ADDON_SOURCES_EXCLUDE = 
+	ADDON_SOURCES_EXCLUDE = libs/luabind/examples/% libs/luabind/test/%
 	
 	# when parsing the file system looking for include paths exclude this for all or
 	# a specific platform
-	# ADDON_INCLUDES_EXCLUDE =
+	ADDON_INCLUDES_EXCLUDE += libs/luabind/examples/% libs/luabind/test/%
 	
 linux64:
 	# when parsing the file system looking for sources exclude this for all or
 	# a specific platform
-	ADDON_SOURCES_EXCLUDE = libs/boost/%
+	ADDON_SOURCES_EXCLUDE += libs/boost/%
 	
 	# when parsing the file system looking for include paths exclude this for all or
 	# a specific platform
-	ADDON_INCLUDES_EXCLUDE = libs/boost/%
+	ADDON_INCLUDES_EXCLUDE += libs/boost/%
 	
 linux:
 	# when parsing the file system looking for sources exclude this for all or
 	# a specific platform
-	ADDON_SOURCES_EXCLUDE = libs/boost/%
+	ADDON_SOURCES_EXCLUDE += libs/boost/%
 	
 	# when parsing the file system looking for include paths exclude this for all or
 	# a specific platform
-	ADDON_INCLUDES_EXCLUDE = libs/boost/%
+	ADDON_INCLUDES_EXCLUDE += libs/boost/%
 	
 win_cb:
 	# when parsing the file system looking for sources exclude this for all or
 	# a specific platform
-	ADDON_SOURCES_EXCLUDE = libs/boost/%
+	ADDON_SOURCES_EXCLUDE += libs/boost/%
 	
 	# when parsing the file system looking for include paths exclude this for all or
 	# a specific platform
-	ADDON_INCLUDES_EXCLUDE = libs/boost/%
+	ADDON_INCLUDES_EXCLUDE += libs/boost/%
 	
 vs:
 	# when parsing the file system looking for sources exclude this for all or
 	# a specific platform
-	ADDON_SOURCES_EXCLUDE = libs/boost/%
+	ADDON_SOURCES_EXCLUDE += libs/boost/%
 	
 	# when parsing the file system looking for include paths exclude this for all or
 	# a specific platform
-	ADDON_INCLUDES_EXCLUDE = libs/boost/%
+	ADDON_INCLUDES_EXCLUDE += libs/boost/%
 	
 linuxarmv6l:
 	# when parsing the file system looking for sources exclude this for all or
 	# a specific platform
-	ADDON_SOURCES_EXCLUDE = libs/boost/%
+	ADDON_SOURCES_EXCLUDE += libs/boost/%
 	
 	# when parsing the file system looking for include paths exclude this for all or
 	# a specific platform
-	ADDON_INCLUDES_EXCLUDE = libs/boost/%
+	ADDON_INCLUDES_EXCLUDE += libs/boost/%
 	
 linuxarmv7l:
 	# when parsing the file system looking for sources exclude this for all or
 	# a specific platform
-	ADDON_SOURCES_EXCLUDE = libs/boost/%
+	ADDON_SOURCES_EXCLUDE += libs/boost/%
 	
 	# when parsing the file system looking for include paths exclude this for all or
 	# a specific platform
-	ADDON_INCLUDES_EXCLUDE = libs/boost/%
+	ADDON_INCLUDES_EXCLUDE += libs/boost/%
 
 android/armeabi:
 	
@@ -133,11 +133,11 @@ osx:
 
 	# when parsing the file system looking for sources exclude this for all or
 	# a specific platform
-	ADDON_SOURCES_EXCLUDE = libs/boost/% libs/lua/% libs/luabind/%
+	ADDON_SOURCES_EXCLUDE += libs/boost/% libs/lua/% libs/luabind/%
 	
 	# when parsing the file system looking for include paths exclude this for all or
 	# a specific platform
-	ADDON_INCLUDES_EXCLUDE = libs/boost/% libs/lua/% libs/luabind/%
+	ADDON_INCLUDES_EXCLUDE += libs/boost/% libs/lua/% libs/luabind/%
     
 ios:
 	# when parsing the file system looking for libraries exclude this for all or
@@ -153,4 +153,4 @@ ios:
 	
 	# when parsing the file system looking for include paths exclude this for all or
 	# a specific platform
-	ADDON_INCLUDES_EXCLUDE = libs/lua/% libs/luabind/%
+	ADDON_INCLUDES_EXCLUDE += libs/lua/% libs/luabind/%
